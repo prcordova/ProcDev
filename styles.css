@@ -26,13 +26,13 @@ p {
     
 
 }
-
+/*
 .icones {
     padding-left: 8px;
    font-size: 30px;
    padding-bottom: 5px;
 }
-
+*/
 .titulosBrancos {
     text-decoration: underline;
     text-underline-position: below;
@@ -64,4 +64,10 @@ p {
 }
 html {
     scroll-behavior: smooth;
+}
+
+.projetos {
+border: 10px;
+align-items: flex-end;
+
 }
