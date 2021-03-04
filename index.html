@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title> Portifólio de Pedro Ricardo </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <script src='main.js'></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <link rel="icon" href="IMG/Pedro.jpg">
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -23,64 +24,6 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8dd542139c.js" crossorigin="anonymous"></script>
 
-    <style>
-        .foto-perfil {
-            height: 20%;
-            width: 20%;
-            max-width: 100%;
-            border-radius: 50%;
-        }
-
-        .corPrimaria {
-            background-color: #18bc9c;
-        }
-
-        .corSecundaria {
-            background: #2c3e50;
-        }
-
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-            color: black !important;
-        }
-
-        .icones {
-            padding-left: 5px;
-        }
-
-        .titulosBrancos {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: white;
-        }
-
-        .titulosVerdes {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #18bc9c;
-        }
-        .textoBranco {
-            color: white !important;
-        }
-        .jumbotron {
-            margin-bottom: 0px;
-
-        }
-        .textoFooter {
-            margin: 0px;
-            padding-top: 15px;
-            padding-bottom:15px;
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
 
 </head>
 
@@ -118,21 +61,27 @@
         </div>
     </nav>
 
-    <section class="jumbotron text-center corPrimaria">
-        <div class="container">
-            <img class="foto-perfil" src="IMG/Pedro.jpg" alt="Profile">
-            <h1 class="jumbotron-heading textoBranco">Pedro Ricardo</h1>
-            <p class="textoBranco">Software Developer - Amante de Games e Rock n Roll </p>
-            <p>
-                <a href="#contato" class="btn btn-dark my-2">Contato</a>
-            </p>
+    <!--seção de foto, biografia e links de contatos (icones de linkedin , github e instagram)-->
 
-            <a href="https://www.linkedin.com/in/pedroricardocordova/"> <i class="fab fa-linkedin"></i> </a>
-            <a href="https://github.com/prcordova"><i class="icones fab fa-github"></i></a>
-            <a href="https://www.instagram.com/brpixygames/"><i class="icones fab fa-instagram"></i></a>
+    <div class="perfil" style="text-align: center;">
+        <div class="corPrimaria">
 
+            <div class="container">
+                <img class="foto-perfil" src="IMG/Pedro.jpg" alt="Profile">
+                <h1 class="jumbotron-heading textoBranco">Pedro Ricardo</h1>
+                <p class="textoBranco">Software Developer - Amante de Games e Rock n Roll </p>
+                <p>
+                    <a href="#contato" class="btn btn-dark my-2">Contato</a>
+                </p>
+
+                <div class="icones">
+                    <a href="https://www.linkedin.com/in/pedroricardocordova/"> <i class="fab fa-linkedin"></i> </a>
+                    <a href="https://github.com/prcordova"><i class="icones fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/prcordova/"><i class="icones fab fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
     <!--Projetos-->
 
@@ -152,13 +101,15 @@
                             <ul>
                                 <li> HTML </li>
                                 <li> CSS </li>
-                                
-                             
+
+
                             </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                   <a href="https://procgamesdev.netlify.app/" class="href"> <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
-                                    <a href="https://github.com/prcordova/procgamesdev" class="href"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                                    <a href="https://procgamesdev.netlify.app/" class="href"> <button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="https://github.com/prcordova/procgamesdev" class="href"><button
+                                            type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
                                 </div>
 
                             </div>
@@ -178,12 +129,14 @@
                             <ul>
                                 <li> HTML </li>
                                 <li> CSS </li>
-                            
+
                             </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                   <a href="https://prcordova.netlify.app/" class="href"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a> 
-                                   <a href="https://github.com/prcordova/ProcDev" class="href"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a> 
+                                    <a href="https://prcordova.netlify.app/" class="href"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="https://github.com/prcordova/ProcDev" class="href"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
                                 </div>
 
                             </div>
@@ -202,12 +155,14 @@
                             <ul>
                                 <li> HTML </li>
                                 <li> CSS </li>
-                            
+
                             </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                   <a href="https://procdevnews.netlify.app/#" class="href"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a> 
-                                   <a href="https://github.com/prcordova/ProcDevnews" class="href"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a> 
+                                    <a href="https://procdevnews.netlify.app/#" class="href"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="https://github.com/prcordova/ProcDevnews" class="href"><button
+                                            type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
                                 </div>
 
                             </div>
@@ -222,15 +177,20 @@
 
 
     <!--Sobre Mim-->
-    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
-        <div class="container">
-            <h2 class="jumbotron-heading titulosBrancos ">Sobre Mim </h2>
-            <p class="lead textoBranco"> Olá, meu nome é Pedro, sou formado em análise e desenvolvimento de sistemas,
-                amante de códigos, games e rock n' roll.</p>
+    <div class="corPrimaria">
+        <section id="sobre-mim"style="text-align: center;">
+            <div class="container">
+                <h2 class="jumbotron-heading titulosBrancos ">Sobre Mim </h2>
+                <p class="lead textoBranco"> Olá, meu nome é Pedro, sou formado em análise e desenvolvimento de
+                    sistemas,
+                    amante de códigos, games e rock n' roll.</p>
+                </section>>
+            </div>
+    </div>
 
-        </div>
+    <!--Depoimentos-->
 
-        <!--Depoimentos-->
+
     </section>
     <section class="jumbotron-text-center titulosVerdes" id="depoimentos">
         <div class="container">
@@ -255,9 +215,12 @@
     <section class="corPrimaria">
         <div>
             <div class="container-fluid" id="contato">
-                <h3 style="padding-top: 60px"class="text-center titulosBrancos">Disponivel para oportunidades</h3>
-                <a href="mailto:pedroricardocordova@gmail.com"><h4 style="padding-bottom: 60px; margin-bottom:0px;"class="text-center">👉 pedroricardocordova@gmail.com 👈</h4></a>
-                
+                <h3 style="padding-top: 60px" class="text-center titulosBrancos">Disponivel para oportunidades</h3>
+                <a href="mailto:pedroricardocordova@gmail.com">
+                    <h4 style="padding-bottom: 60px; margin-bottom:0px;" class="text-center">👉
+                        pedroricardocordova@gmail.com 👈</h4>
+                </a>
+
             </div>
         </div>
     </section>
